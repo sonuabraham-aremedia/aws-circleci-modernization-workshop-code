@@ -34,3 +34,8 @@ jobs:
       - snyk/scan:
           fail-on-issues: false
           monitor-on-build: false
+workflows:
+  build_and_test:
+    jobs:
+      - run_tests
+      - scan_app
