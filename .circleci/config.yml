@@ -115,5 +115,3 @@ workflows:
   build:
     jobs:
       - destroy_aws_ecs:
-          requires:
-            - approve_destroy
