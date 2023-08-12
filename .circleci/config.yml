@@ -99,3 +99,4 @@ workflows:
       - scan_app
       - build_docker_image
       - deploy_aws_ecs
+      - smoketest_deployment
