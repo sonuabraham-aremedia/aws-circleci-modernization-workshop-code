@@ -112,7 +112,7 @@ jobs:
       - terraform/destroy:
           path: ./terraform/ecs
 workflows:
-  build:
+  build1:
     jobs:
       - run_tests
       - scan_app
