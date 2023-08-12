@@ -114,4 +114,4 @@ jobs:
 workflows:
   build:
     jobs:
-      - destroy_aws_ecs:
+      - destroy_aws_ecs
